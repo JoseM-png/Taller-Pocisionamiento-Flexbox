@@ -1,0 +1,120 @@
+* {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0.5rem 2rem;
+    background-color: #6690fc;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+main {
+    padding-top: 4rem;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.article-form {
+    display: flex;
+    
+}
+
+.article-form h2 {
+    font-size: 1.2rem;
+}
+
+.form {
+    padding: 2rem;
+    width: 70%;
+    background: #6690fc;
+}
+
+.menu {
+    padding: 2rem 2rem;
+    width: 30%;
+    background: #6690fc;
+}
+
+.menu-flex {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.menu-flex button {
+    text-align: left;
+    padding: 4px 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid #ffffff99;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu-flex button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.menu-flex button:active {
+    background-color: darkblue;
+    color: white;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 4px;
+    padding: .6rem;
+}
+
+.form-flex div {
+    display: flex;
+    width: 60%;
+}
+
+.form-flex div label {
+    width: 50%;
+}
+
+.form-flex div input {
+    width: 50%;
+}
+
+.article-sticky {
+    border: 4px solid gray;
+}
+
+.article-sticky h2 {
+    padding: 1rem 2rem;
+    background-color: darkblue;
+    color: white;
+    position: sticky;
+    top: 2px;
+}
+
+.article-sticky p {
+    background-color: black;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ffffff99;
+}
